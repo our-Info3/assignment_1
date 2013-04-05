@@ -1,4 +1,4 @@
-package deletenode;
+package node;
 
 public class Node {
   Node next;
