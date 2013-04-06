@@ -2,14 +2,14 @@ package node;
 
 public class Node {
   Node next;
-  Object data;
+  String data;
 
-  public Node(Object data, Node next) {
+  public Node(String data, Node next) {
     this.data = data;
     this.next = next;
   }
 
-  public Node(Object data) {
+  public Node(String data) {
     this.data = data;
   }
 }
